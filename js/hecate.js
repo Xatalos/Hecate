@@ -9,6 +9,7 @@ var battleTheme;
 var crazySpace;
 var darkIntro;
 var alarm;
+var explosion;
 
 
 
@@ -29,6 +30,7 @@ function preloadMusic() {
     $("#content").append('<audio id="Faith" class="music" preload loop> <source src="music/Faith.mp3" type="audio/mpeg"></audio>');
     $("#content").append('<audio id="Pressure" class="music" preload loop> <source src="music/Pressure.mp3" type="audio/mpeg"></audio>');
     $("#content").append('<audio id="Alarm" class="music" preload> <source src="music/Alarm.mp3" type="audio/mpeg"></audio>');
+    $("#content").append('<audio id="Explosion" class="music" preload> <source src="music/Explosion.mp3" type="audio/mpeg"></audio>');
     $("#content").append('<audio id="Anticipation" class="music" preload loop> <source src="music/Anticipation.mp3" type="audio/mpeg"></audio>');
     $("#content").append('<audio id="HeartOfMachine" class="music" preload loop> <source src="music/HeartOfMachine.mp3" type="audio/mpeg"></audio>');
     $("#content").append('<audio id="BattleTheme" class="music" preload loop> <source src="music/BattleTheme.mp3" type="audio/mpeg"></audio>');
@@ -38,6 +40,7 @@ function preloadMusic() {
     faith = $("#Faith")[0];
     pressure = $("#Pressure")[0];
     alarm = $("#Alarm")[0];
+    explosion = $("#Explosion")[0];
     anticipation = $("#Anticipation")[0];
     heartOfMachine = $("#HeartOfMachine")[0];
     battleTheme = $("#BattleTheme")[0];
@@ -214,76 +217,101 @@ function playSongs() {
     if (musicOn == false) {
         return;
     }
-    if (scenario == 1) {
-        outThere.play();
-    } else if (scenario == 2) {
-        outThere.pause();
-        outThere.currentTime = 0;
-        faith.play();
-    } else if (scenario == 10) {
-        faith.pause();
-        pressure.play();
-    } else if (scenario == 1021) {
-        heartOfMachine.pause();
-        pressure.play();
-    } else if (scenario == 2020) {
-        anticipation.pause();
-        anticipation.currentTime = 0;
-        pressure.play();
-    } else if (scenario == 1000) {
-        pressure.pause();
-        pressure.currentTime = 0;
-        outThere.play();
-    } else if (scenario == 2000) {
-        pressure.pause();
-        pressure.currentTime = 0;
-        outThere.play();
-    } else if (scenario == 1008) {
-        outThere.pause();
-        alarm.play();
-        anticipation.play();
-    } else if (scenario == 2008) {
-        outThere.pause();
-        alarm.play();
-        anticipation.play();
-    } else if (scenario == 1018) {
-        anticipation.pause();
-        anticipation.currentTime = 0;
-        heartOfMachine.play();
-    } else if (scenario == 3000) {
-        pressure.pause();
-        battleTheme.play();
-    } else if (scenario == 3001) {
-        alarm.play();
-    } else if (scenario == 4000) {
-        pressure.pause();
-        anticipation.play();
-    } else if (scenario == 5000) {
-        pressure.pause();
-        battleTheme.play();
-    } else if (scenario == 7000) {
-        pressure.pause();
-        anticipation.play();
-    } else if (scenario == 6000) {
-        pressure.pause();
-        pressure.currentTime = 0;
-        anticipation.play();
-    } else if (scenario == 6001) {
-        anticipation.pause();
-        anticipation.currentTime = 0;
-        pressure.play();
-    } else if (scenario == 3010) {
-        battleTheme.pause();
-        crazySpace.play();
-    } else if (scenario == 4013) {
-        anticipation.pause();
-        crazySpace.play();
-    } else if (scenario == 5008) {
-        battleTheme.pause();
-        crazySpace.play();
-    } else if (scenario == 7012) {
-        anticipation.pause();
-        darkIntro.play();
+    switch(scenario) {
+        case 1:
+            outThere.play();
+            break;
+        case 2:
+            outThere.pause();
+            outThere.currentTime = 0;
+            faith.play();
+            break;
+        case 10:
+            faith.pause();
+            pressure.play();
+            break;
+        case 1021:
+            heartOfMachine.pause();
+            pressure.play();
+            break;
+        case 2020:
+            anticipation.pause();
+            anticipation.currentTime = 0;
+            pressure.play();
+            break;
+        case 1000:
+            pressure.pause();
+            pressure.currentTime = 0;
+            outThere.play();
+            break;
+        case 2000:
+            pressure.pause();
+            pressure.currentTime = 0;
+            outThere.play();
+            break;
+        case 1008:
+            outThere.pause();
+            alarm.play();
+            anticipation.play();
+            break;
+        case 2008:
+            outThere.pause();
+            alarm.play();
+            anticipation.play();
+            break;
+        case 1018:
+            anticipation.pause();
+            anticipation.currentTime = 0;
+            heartOfMachine.play();
+            break;
+        case 3000:
+            pressure.pause();
+            battleTheme.play();
+            break;
+        case 3001:
+            alarm.play();
+            break;
+        case 3004:
+            explosion.play();
+            break;
+        case 4000:
+            pressure.pause();
+            anticipation.play();
+            break;
+        case 5000:
+            pressure.pause();
+            battleTheme.play();
+            break;
+        case 7000:
+            pressure.pause();
+            anticipation.play();
+            break;
+        case 6000:
+            pressure.pause();
+            pressure.currentTime = 0;
+            anticipation.play();
+            break;
+        case 6001:
+            anticipation.pause();
+            anticipation.currentTime = 0;
+            pressure.play();
+            break;
+        case 3010:
+            battleTheme.pause();
+            crazySpace.play();
+            break;
+        case 4013:
+            anticipation.pause();
+            crazySpace.play();
+            break;
+        case 5008:
+            battleTheme.pause();
+            crazySpace.play();
+            break;
+        case 7012:
+            anticipation.pause();
+            darkIntro.play();
+            break;
     }
 }
 

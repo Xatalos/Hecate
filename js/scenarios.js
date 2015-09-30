@@ -130,7 +130,7 @@ var scenarios = {
     
     3011: "<p>There was no resistance to be seen on the faces of the councilors. After witnessing the Empire's swift dismantling of our defenses, and getting to keep their privileged positions after all this, they should have no reason to rebel. They had already chosen the path of submission by naming me as the new First Founder.</p><p>The way to survive in this world was not safeguarding your principles to the very end. It was to adapt and to choose the best answer for each situation.</p><p>We had retained a relatively autonomous position. By conceding some of our rights to the Empire, we would be able to reap other benefits. Perhaps it was the start of great progress rather than oppression.</p><p>Everything was in my hands now.</p><p>A SERVANT AND A RULER - END</p>",
     
-    3012: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p>",
+    3012: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p><p>waddlesplash</p>",
     
     4000: "<p>'We can still reach an agreement', I finally decided. 'I'll contact Evans and see what I can do. Thanks for your suggestion, but I don't want to start a battle unless it's absolutely necessary.'</p><p>'Very well', Hecate said. 'I will monitor your progress and take action if needed.'</p><p>With that, Hecate's voice vanished.</p>",
     
@@ -166,7 +166,7 @@ var scenarios = {
     
     4016: "<p>As Hecate departed from the orbit of Teochen, I looked back at my colony with mixed feelings.</p><p>'Do you miss it already?'</p><p>'Hardly. There's no place left for me there.'</p><p>I turned away from Teochen and looked at the stars around us. Evans fell silent as well.</p><p>Immediate outbreak of war was avoided, but there was something odd about the ease of the First Founder's submission. Depending on his actions, the colony could still face war in the future.</p><p>However, the fate of the colony no longer concerned me. I belonged to the Empire now.</p><p>EXILED - END</p>",
     
-    4017: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p>",
+    4017: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p><p>waddlesplash</p>",
     
     5000: "<p><i>'I understand. Let's proceed according to your plan.'</i></p><p>This might cause the destruction of our entire colony, but it was the best way to protect our sovereignty. The First Founder was right. We couldn't bow down so easily. Perhaps the Empire would take us more seriously after we had shown them our strength.</p><p><i>'The other councilors have been waiting nearby. The meeting will begin shortly.'</i></p><p>I looked at the door to the conference room, and soon the First Founder entered the room along with his guards and the other councilors.</p>",
     
@@ -192,7 +192,7 @@ var scenarios = {
     
     5011: "<p>This was a heavy responsibility, but it was mine to bear. It had been my choice that our relationship with the Empire had reached this dangerous stage.</p><p>Even if I didn't originally think so, I had become able to understand the First Founder's point of view. Survival wasn't all that mattered. If we gave up everything to achieve peace, what worth was there in being able to live on?</p><p>I briefly glanced towards the stars. I could imagine several fleets of the Empire already approaching us. Perhaps this was our final stand, but at least we had remained as ourselves - Founders of Teochen.</p><p>RELENTLESS - END</p>",
     
-    5012: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p>",
+    5012: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p><p>waddlesplash</p>",
     
     6000: "<p>I couldn't do it. There was no guarantee that Hecate would be destroyed in the attack, and there might be other ships nearby. Even if we succeeded with the first stage of this plan, there was a high chance that it would trigger a war that would cause our destruction.</p><p><i>'I have a better idea. We can show our will to defend ourselves by simply emphasizing that our servants will inevitably fight to the death if we're attacked. I also have a high-ranking officer of theirs in my custody. If we take him as a hostage, we can again show that we have the will to fight them if necessary. However, we can ultimately release him to ease the tensions between us - while if we made a clear attack against them, there would be no way to improve our relations afterwards. It could even just increase their motivation to attack us since they'd have an easy justification to do so.'</i></p><p>What followed was a long silence. It might have meant that the First Founder was either undecided or thinking of ways to convince me.</p>",
     
@@ -226,6 +226,6 @@ var scenarios = {
     
     7013: "<p>Before I could do anything else, the First Founder's servants surrounded me and chained my hands together behind my back. I was powerless to resist. At the same time, I could hear stun bolts being shot in the distance. My guards must have been taken by surprise.</p><p>Was this truly the end? Was there nothing more I could do? Everything I had achieved so far was gone, and the colony would likely be destroyed in the near future. I couldn't even count on being helped by the Empire after I had just gravely betrayed them. This was such a miserable fate.</p><p>As I was being escorted through the corridors by tens of servants, I glanced towards the stars. Had Hecate already left the orbit of Teochen or was it still observing the situation? Regardless of that, the Empire's fleets would soon be approaching as well.</p><p>It was hard to imagine how we could survive through this adversity.</p><p>POWERLESS - END</p>",
     
-    7014: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p>",
+    7014: "<h1>Story and Development</h1><br><p>Teemu Salminen</p><h1>Music</h1><br><p>Yousif Abdullah</p><p>rubberduck</p><p>cynicmusic</p><p>yd</p><p>Nikke</p><p>waddlesplash</p>",
     
 };
