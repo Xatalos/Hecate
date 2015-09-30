@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootswatch.less" rel="stylesheet">
+        <link href="css/variables.less" rel="stylesheet">
+        <link href="css/hecate.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/hecate.js"></script>
+        <script src="js/scenarios.js"></script>
+        <title>Hecate</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body onload="loadCurrentScenario()">
+        <div id="musicToggle" class="top-right hidden">
+            <a id="toggleButton" onClick="toggleMusic()" class="btn btn-default">Music On</a>
+        </div>
+        <div class="centered">
+            <div id="startMenu" class="align-center">
+                <h1>Hecate</h1>
+                <div>
+                    <br>
+                    <p>Hecate is an interactive story where you can greatly influence the outcome.</p>
+                    <p>Choose wisely, as a single decision can change everything.</p>
+                    <br>
+                </div>
+                <div>
+                    <a onClick="startGame()" class="btn btn-default">Start</a>
+                </div>
+            </div>
+            <div id="content" class="hidden align-center">
+                <div id="scenarioText"></div>
+                <br>
+                <div id="buttons" class="align-center"></div>
+            </div>
+        </div>
+    </body>
+</html>

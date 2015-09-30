@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 500px;
+    height: 200px;
+}
+
+.top-right {
+    position: absolute;
+    text-align: right;
+    top: 0%;
+    right: 0%;
+    width: 100px;
+    height: 50px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+p {
+    font-size: 130%
+}
