@@ -96,19 +96,19 @@ function createButtons() {
     "use strict";
     switch(scenario) {
         case 10:
-            $("#buttons").append('<a onClick="makeChoice(1)" class="btn btn-default">Reveal the weapon</a>');
+            $("#buttons").append('<a onClick="makeChoice(1)" class="btn btn-default">Reveal the weapon</a><span style="padding-left:20px">');
             $("#buttons").append('<a onClick="makeChoice(2)" class="btn btn-default">Hide the weapon</a>');
             break;
         case 1021:
-            $("#buttons").append('<a onClick="makeChoice(3)" class="btn btn-default">Initiate a coup</a>');
+            $("#buttons").append('<a onClick="makeChoice(3)" class="btn btn-default">Initiate a coup</a><span style="padding-left:20px">');
             $("#buttons").append('<a onClick="makeChoice(4)" class="btn btn-default">Aim for a peaceful agreement');
             break;
         case 2020:
-            $("#buttons").append('<a onClick="makeChoice(5)" class="btn btn-default">Attack Hecate</a>');
+            $("#buttons").append('<a onClick="makeChoice(5)" class="btn btn-default">Attack Hecate</a><span style="padding-left:20px">');
             $("#buttons").append('<a onClick="makeChoice(6)" class="btn btn-default">Aim for a peaceful agreement');
             break;
         case 6001:
-            $("#buttons").append('<a onClick="makeChoice(7)" class="btn btn-default">Attack Hecate</a>');
+            $("#buttons").append('<a onClick="makeChoice(7)" class="btn btn-default">Attack Hecate</a><span style="padding-left:20px">');
             $("#buttons").append('<a onClick="makeChoice(8)" class="btn btn-default">Aim for a peaceful agreement');
             break;
         case 3012:
