@@ -3,11 +3,9 @@
 }
 
 .centered {
-    position: absolute;
-    top: 10%;
-    left: 30%;
+    margin: auto;
+    margin-top: 5%;
     width: 500px;
-    height: 200px;
 }
 
 .top-right {
