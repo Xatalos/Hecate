@@ -8,11 +8,10 @@
     width: 500px;
 }
 
-.top-right {
-    position: absolute;
-    text-align: right;
+.top-left {
+    text-align: left;
     top: 0%;
-    right: 0%;
+    left: 0%;
     width: 100px;
     height: 50px;
 }

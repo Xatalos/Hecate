@@ -60,11 +60,11 @@ function toggleMusic() {
         battleTheme.pause();
         crazySpace.pause();
         darkIntro.pause();
-        $("#toggleButton").text("Music Off");
+        $("#toggleButton").text("Turn Music On");
     } else {
         musicOn = true;
         playSongsOnLoad();
-        $("#toggleButton").text("Music On");
+        $("#toggleButton").text("Turn Music Off");
     }
 }
 
@@ -111,7 +111,7 @@ function createButtons() {
             $("#buttons").append('<a onClick="makeChoice(7)" class="btn btn-default">Attack Hecate</a><span style="padding-left:20px">');
             $("#buttons").append('<a onClick="makeChoice(8)" class="btn btn-default">Aim for a peaceful agreement');
             break;
-        case 3012:
+        case 3013:
             // no buttons
             break;
         case 4017:
@@ -201,7 +201,7 @@ function playSongsOnLoad() {
         anticipation.play();
     } else if (scenario == 6001) {
         pressure.play();
-    } else if (scenario >= 3010 && scenario <= 3012) {
+    } else if (scenario >= 3010 && scenario <= 3013) {
         crazySpace.play();
     } else if (scenario >= 4013 && scenario <= 4016) {
         crazySpace.play();
