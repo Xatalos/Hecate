@@ -2,6 +2,10 @@
     display: none;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .centered {
     margin: auto;
     margin-top: 5%;
